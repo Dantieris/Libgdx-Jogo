@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/layout/com_facebook_activity_layout.xml",
+        "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/layout/com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/layout/messenger_button_send_white_small.xml",
+        "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/layout/messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_round.xml",
+        "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/layout/messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/layout/com_facebook_login_fragment.xml",
+        "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/layout/com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/layout/com_facebook_tooltip_bubble.xml",
+        "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/layout/com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/layout/com_facebook_device_auth_dialog_fragment.xml",
+        "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/layout/com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_small.xml",
+        "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/layout/messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_large.xml",
+        "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/layout/messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/layout/messenger_button_send_white_round.xml",
+        "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/layout/messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/layout/messenger_button_send_white_large.xml",
+        "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/layout/messenger_button_send_white_large.xml"
+    }
+]

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="gdx-kiwi-1.7.1.9.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.czyzby/gdx-kiwi/1.7.1.9.3/9b66d5fb34c057523056184d8faf232620c26e92/gdx-kiwi-1.7.1.9.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.czyzby/gdx-kiwi/1.7.1.9.3/7c3638ca3edae20f3cc1473d2d9b981ab6dc6540/gdx-kiwi-1.7.1.9.3-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.czyzby/gdx-kiwi/1.7.1.9.3/7c3638ca3edae20f3cc1473d2d9b981ab6dc6540/gdx-kiwi-1.7.1.9.3-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.czyzby/gdx-kiwi/1.7.1.9.3/7c3638ca3edae20f3cc1473d2d9b981ab6dc6540/gdx-kiwi-1.7.1.9.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

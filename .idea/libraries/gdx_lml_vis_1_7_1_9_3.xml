@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="gdx-lml-vis-1.7.1.9.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.czyzby/gdx-lml-vis/1.7.1.9.3/d8dadab7c16d091d8690db913fbc28311f94161e/gdx-lml-vis-1.7.1.9.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.czyzby/gdx-lml-vis/1.7.1.9.3/21a9fd4678d81aa28ab731bcf1c20aaff78557/gdx-lml-vis-1.7.1.9.3-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.czyzby/gdx-lml-vis/1.7.1.9.3/21a9fd4678d81aa28ab731bcf1c20aaff78557/gdx-lml-vis-1.7.1.9.3-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.czyzby/gdx-lml-vis/1.7.1.9.3/21a9fd4678d81aa28ab731bcf1c20aaff78557/gdx-lml-vis-1.7.1.9.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
