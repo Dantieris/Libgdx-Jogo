@@ -28,54 +28,54 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="core" exported="" />
-    <orderEntry type="library" exported="" name="gdx-backend-gwt-1.9.3" level="project" />
-    <orderEntry type="library" exported="" name="gdx-backend-gwt-1.9.3-sources" level="project" />
-    <orderEntry type="library" exported="" name="gdx-1.9.3-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_badlogicgames_gdx_gdx_backend_gwt_1_9_3_d39621b517bc4791493378745ac45e272b65b9eb_gdx_backend_gwt_1_9_3_jar" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_badlogicgames_gdx_gdx_backend_gwt_1_9_3_aa9eb1f5dcfb894a6cc47aa0368f87a89c98c7e8_gdx_backend_gwt_1_9_3_sources_jar" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_badlogicgames_gdx_gdx_1_9_3_2bf97653cc496f9ef2f76ecf2f29b1918821f474_gdx_1_9_3_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="gdx-1.9.3" level="project" />
-    <orderEntry type="library" exported="" name="gdx-box2d-1.9.3-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_badlogicgames_gdx_gdx_box2d_1_9_3_888daa999deda24ababa41d0141b5b2928676f78_gdx_box2d_1_9_3_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="gdx-box2d-1.9.3" level="project" />
-    <orderEntry type="library" exported="" name="gdx-box2d-gwt-1.9.3-sources" level="project" />
-    <orderEntry type="library" exported="" name="gdx-controllers-1.9.3-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_badlogicgames_gdx_gdx_box2d_gwt_1_9_3_1038cdec6a1746da75e0635003583c04f0d9752b_gdx_box2d_gwt_1_9_3_sources_jar" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_badlogicgames_gdx_gdx_controllers_1_9_3_97d15e14243aeab7884352c1bcdaa1c501e8cb1d_gdx_controllers_1_9_3_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="gdx-controllers-1.9.3" level="project" />
-    <orderEntry type="library" exported="" name="gdx-controllers-gwt-1.9.3" level="project" />
-    <orderEntry type="library" exported="" name="gdx-controllers-gwt-1.9.3-sources" level="project" />
-    <orderEntry type="library" exported="" name="box2dlights-1.4-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_badlogicgames_gdx_gdx_controllers_gwt_1_9_3_55fe2d7ca54e62e186bec4fe6c8a90024b03c29f_gdx_controllers_gwt_1_9_3_jar" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_badlogicgames_gdx_gdx_controllers_gwt_1_9_3_d1347f7b1e2a6ad4c8ea736aa43f19c000ed2241_gdx_controllers_gwt_1_9_3_sources_jar" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_badlogicgames_box2dlights_box2dlights_1_4_57a1f15112328706c648a430bd19574118e2d8f4_box2dlights_1_4_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="box2dlights-1.4" level="project" />
-    <orderEntry type="library" exported="" name="ashley-1.7.0-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_badlogicgames_ashley_ashley_1_7_0_761d4182b29162ddd88b5d49152b8d36acb628f4_ashley_1_7_0_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="ashley-1.7.0" level="project" />
-    <orderEntry type="library" exported="" name="gdx-ai-1.8.0-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_badlogicgames_gdx_gdx_ai_1_8_0_154b2fbb50894a944607cd74f7dba1073d31a967_gdx_ai_1_8_0_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="gdx-ai-1.8.0" level="project" />
-    <orderEntry type="library" exported="" name="vis-ui-1.1.1-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_kotcrab_vis_vis_ui_1_1_1_8ad42a861f1c7c1a4e686e9bdbb191896f9c6c4c_vis_ui_1_1_1_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="vis-ui-1.1.1" level="project" />
-    <orderEntry type="library" exported="" name="artemis-odb-gwt-1.3.1" level="project" />
-    <orderEntry type="library" exported="" name="artemis-odb-gwt-1.3.1-sources" level="project" />
-    <orderEntry type="library" exported="" name="artemis-odb-1.3.1-sources" level="project" />
-    <orderEntry type="library" exported="" name="vis-runtime-gwt-0.3.2" level="project" />
-    <orderEntry type="library" exported="" name="vis-runtime-gwt-0.3.2-sources" level="project" />
-    <orderEntry type="library" exported="" name="vis-runtime-0.3.2-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_net_onedaybeard_artemis_artemis_odb_gwt_1_3_1_fcf7a681050b1ad781d7c2c21abc7148c75f6815_artemis_odb_gwt_1_3_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_net_onedaybeard_artemis_artemis_odb_gwt_1_3_1_5cb5c5bdccd08c67f0928ba22f4b4acab211c818_artemis_odb_gwt_1_3_1_sources_jar" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_net_onedaybeard_artemis_artemis_odb_1_3_1_ad594bbb0b2a9e5be9c12659e3c697f3a76bdecb_artemis_odb_1_3_1_sources_jar" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_kotcrab_vis_vis_runtime_gwt_0_3_2_97b858b636d417387582cc1802a84a92e9bc6aed_vis_runtime_gwt_0_3_2_jar" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_kotcrab_vis_vis_runtime_gwt_0_3_2_b2ffab1b66a41908bf9605f271b998976177ca8c_vis_runtime_gwt_0_3_2_sources_jar" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_kotcrab_vis_vis_runtime_0_3_2_521b22227e528c1893db921617b1e602a1bcbdcd_vis_runtime_0_3_2_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="vis-runtime-0.3.2" level="project" />
-    <orderEntry type="library" exported="" name="libgdx-utils-0.13.3-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_net_dermetfan_libgdx_utils_libgdx_utils_0_13_3_dfedc1b0a28be51eed2c2cadf120a759d175622_libgdx_utils_0_13_3_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="libgdx-utils-0.13.3" level="project" />
-    <orderEntry type="library" exported="" name="libgdx-utils-box2d-0.13.3-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_net_dermetfan_libgdx_utils_libgdx_utils_box2d_0_13_3_408386623e59030a088e702b76af0cd116c439c8_libgdx_utils_box2d_0_13_3_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="libgdx-utils-box2d-0.13.3" level="project" />
-    <orderEntry type="library" exported="" name="gdx-facebook-core-1.2.1-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_de_tomgrill_gdxfacebook_gdx_facebook_core_1_2_1_f8a0cdba4c98ca7354fd02a37cca8dfe39f91055_gdx_facebook_core_1_2_1_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="gdx-facebook-core-1.2.1" level="project" />
-    <orderEntry type="library" exported="" name="gdx-facebook-html-1.2.1-sources" level="project" />
-    <orderEntry type="library" exported="" name="gdx-kiwi-1.7.1.9.3-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_de_tomgrill_gdxfacebook_gdx_facebook_html_1_2_1_f39e86cd3a3f31c74a522f8f74d7ae655b137e73_gdx_facebook_html_1_2_1_sources_jar" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_github_czyzby_gdx_kiwi_1_7_1_9_3_7c3638ca3edae20f3cc1473d2d9b981ab6dc6540_gdx_kiwi_1_7_1_9_3_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="gdx-kiwi-1.7.1.9.3" level="project" />
-    <orderEntry type="library" exported="" name="gdx-lml-1.7.1.9.3-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_github_czyzby_gdx_lml_1_7_1_9_3_1f0b1c8be9e41b713f22cedefcfa37d1bbe1af87_gdx_lml_1_7_1_9_3_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="gdx-lml-1.7.1.9.3" level="project" />
-    <orderEntry type="library" exported="" name="gdx-lml-vis-1.7.1.9.3-sources" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_github_czyzby_gdx_lml_vis_1_7_1_9_3_21a9fd4678d81aa28ab731bcf1c20aaff78557_gdx_lml_vis_1_7_1_9_3_sources_jar" level="project" />
     <orderEntry type="library" exported="" name="gdx-lml-vis-1.7.1.9.3" level="project" />
     <orderEntry type="library" exported="" name="gdx-freetype-1.9.3" level="project" />
     <orderEntry type="library" exported="" name="gdx-bullet-1.9.3" level="project" />
     <orderEntry type="library" exported="" name="overlap2d-runtime-libgdx-0.1.0" level="project" />
     <orderEntry type="library" exported="" name="gdx-dialogs-core-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="gwt-user-2.6.1" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_google_gwt_gwt_user_2_6_1_c078b1b8cc0281214b0eb458d2c283d039374fad_gwt_user_2_6_1_jar" level="project" />
     <orderEntry type="library" exported="" name="artemis-odb-1.3.1" level="project" />
-    <orderEntry type="library" exported="" name="validation-api-1.0.0.GA" level="project" />
-    <orderEntry type="library" exported="" name="validation-api-1.0.0.GA-sources" level="project" />
-    <orderEntry type="library" exported="" name="json-20090211" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="gwt-servlet-2.6.0" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_javax_validation_validation_api_1_0_0_GA_b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e_validation_api_1_0_0_GA_jar" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_javax_validation_validation_api_1_0_0_GA_7a561191db2203550fbfa40d534d4997624cd369_validation_api_1_0_0_GA_sources_jar" level="project" />
+    <orderEntry type="library" exported="" name="_home_dantieris__gradle_caches_modules_2_files_2_1_org_json_json_20090211_c183aa3a2a6250293808bba12262c8920ce5a51c_json_20090211_jar" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="_home_dantieris__gradle_caches_modules_2_files_2_1_com_google_gwt_gwt_servlet_2_6_0_d1e40c23bf78192482ee76c93619a10b4ea649f7_gwt_servlet_2_6_0_jar" level="project" />
   </component>
 </module>

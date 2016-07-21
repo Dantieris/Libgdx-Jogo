@@ -40,12 +40,12 @@
         "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png"
     },
     {
-        "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_close.png",
-        "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/drawable-xhdpi-v4/com_facebook_close.png"
-    },
-    {
         "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png",
         "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png"
+    },
+    {
+        "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_close.png",
+        "source": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.1/res/drawable-xhdpi-v4/com_facebook_close.png"
     },
     {
         "merged": "/home/dantieris/repositorios/Libgdx-Jogo/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_favicon_white.png",
