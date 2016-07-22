@@ -2,14 +2,12 @@ package br.com.dantieris.jogo.screens;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
-import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
@@ -20,6 +18,7 @@ import java.util.Iterator;
 
 import br.com.dantieris.jogo.Jogo;
 import br.com.dantieris.jogo.components.Dropper;
+import br.com.dantieris.jogo.components.LifeCounter;
 import br.com.dantieris.jogo.models.Bucket;
 import br.com.dantieris.jogo.models.Direction;
 import br.com.dantieris.jogo.models.Drop;
@@ -49,13 +48,18 @@ public class GameScreen implements Screen {
     // score
     private long totalScore;
 
+    // lifeCounter
+    private LifeCounter lifeCounter;
+
     // camera
     private OrthographicCamera camera;
 
     public GameScreen(Jogo jogo) {
         this.jogo = jogo;
 
-        dropper = new Dropper();
+        lifeCounter = new LifeCounter();
+
+        dropper = new Dropper(this);
 
         totalScore = 0;
 
@@ -71,8 +75,6 @@ public class GameScreen implements Screen {
         );
         bucket.setSize(64);
         spawnBucket();
-
-        // batch
 
         // load the drop sound effect and the rain background "music"
         dropSound = Gdx.audio.newSound(Gdx.files.internal("data/drop.mp3"));
@@ -168,6 +170,10 @@ public class GameScreen implements Screen {
                 dropSound.play(0.5f);
                 iter.remove();
 
+                if (drop.hasAction()) {
+                    drop.action();
+                }
+
                 Gdx.app.debug("Render", "Balde pegou um drop.");
 
                 if (drop.getTrend().equals(Trend.GOOD)) {
@@ -237,6 +243,8 @@ public class GameScreen implements Screen {
 
         jogo.font.draw(jogo.batch, "Total Score: " + totalScore, 20, Gdx.graphics.getHeight() - 20);
 
+        lifeCounter.drawLifes(jogo.batch);
+
         jogo.batch.end();
     }
 
@@ -266,7 +274,16 @@ public class GameScreen implements Screen {
         dropper.dispose();
         dropSound.dispose();
         rainMusic.dispose();
+        lifeCounter.dispose();
 
         Gdx.app.debug("Dispose", "Objetos sendo apagados.");
+    }
+
+    public void increaseLife() {
+        lifeCounter.increaseLife();
+    }
+
+    public void reduceLife() {
+        lifeCounter.reduceLife();
     }
 }

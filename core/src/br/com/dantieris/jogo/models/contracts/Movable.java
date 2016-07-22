@@ -2,7 +2,7 @@ package br.com.dantieris.jogo.models.contracts;
 
 import br.com.dantieris.jogo.models.Direction;
 
-public interface Movimentable {
+public interface Movable {
     void setVerticalSpeed(int verticalSpeed);
     int getVerticalSpeed();
     void setHorizontalSpeed(int horizontalSpeed);

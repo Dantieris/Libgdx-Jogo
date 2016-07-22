@@ -9,6 +9,9 @@ import com.badlogic.gdx.utils.Disposable;
 import br.com.dantieris.jogo.models.Direction;
 import br.com.dantieris.jogo.models.Drop;
 import br.com.dantieris.jogo.models.Trend;
+import br.com.dantieris.jogo.models.powerups.GiveLifeAction;
+import br.com.dantieris.jogo.models.powerups.LoseLifeAction;
+import br.com.dantieris.jogo.screens.GameScreen;
 
 public class Dropper implements Disposable {
 
@@ -18,15 +21,24 @@ public class Dropper implements Disposable {
         new Texture(Gdx.files.internal("data/coin.png")),
         new Texture(Gdx.files.internal("data/pumpkin.png")),
         new Texture(Gdx.files.internal("data/droplet.png")),
-        new Texture(Gdx.files.internal("data/eye.png"))
+        new Texture(Gdx.files.internal("data/eye.png")),
+        new Texture(Gdx.files.internal("data/heart.png"))
     };
+
+    private GameScreen ruler;
 
     public Dropper() {
         this.dropInterval = 1000 * 1000 * 1000;
     }
 
+    public Dropper(GameScreen ruler) {
+        this();
+
+        this.ruler = ruler;
+    }
+
     public Drop buildDrop() {
-        switch (MathUtils.random(0, 3)) {
+        switch (MathUtils.random(0, 4)) {
             case 0 :
                 return new Drop(
                         new Rectangle(),
@@ -41,7 +53,8 @@ public class Dropper implements Disposable {
                         textures[1],
                         250,
                         Trend.BAD,
-                        100
+                        100,
+                        new LoseLifeAction(ruler)
                 );
             case 2 :
                 return new Drop(
@@ -60,6 +73,15 @@ public class Dropper implements Disposable {
                         Trend.BAD,
                         200,
                         randomDirection()
+                );
+            case 4 :
+                return new Drop(
+                        new Rectangle(),
+                        textures[4],
+                        200,
+                        Trend.GOOD,
+                        250,
+                        new GiveLifeAction(ruler)
                 );
             default:
                 return new Drop(

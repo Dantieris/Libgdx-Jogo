@@ -5,11 +5,14 @@ import com.badlogic.gdx.math.Rectangle;
 
 import br.com.dantieris.jogo.models.contracts.Scoring;
 import br.com.dantieris.jogo.models.contracts.Trending;
+import br.com.dantieris.jogo.models.powerups.GiveLifeAction;
+import br.com.dantieris.jogo.models.powerups.contracts.Action;
 
-public class Drop extends BasicShapeModel implements Scoring, Trending {
+public class Drop extends MovableShape implements Scoring, Trending {
 
     private int score;
     private Trend trend;
+    private Action action;
 
     public Drop() {
         super();
@@ -32,6 +35,14 @@ public class Drop extends BasicShapeModel implements Scoring, Trending {
         this.score = score;
     }
 
+    public Drop(Rectangle rectangle, Texture texture, int verticalSpeed, Trend trend, int score, Action action) {
+        super(rectangle, texture, verticalSpeed, 0, Direction.CENTER);
+
+        this.trend = trend;
+        this.score = score;
+        this.action = action;
+    }
+
     @Override
     public void setScore(int score) {
         this.score = score;
@@ -50,5 +61,13 @@ public class Drop extends BasicShapeModel implements Scoring, Trending {
     @Override
     public Trend getTrend() {
         return this.trend;
+    }
+
+    public boolean hasAction() {
+        return action != null;
+    }
+
+    public void action() {
+        this.action.action();
     }
 }

@@ -6,9 +6,10 @@ import com.badlogic.gdx.utils.Disposable;
 
 import br.com.dantieris.jogo.models.contracts.Coordinates2D;
 import br.com.dantieris.jogo.models.contracts.Dimensions2D;
-import br.com.dantieris.jogo.models.contracts.Movimentable;
+import br.com.dantieris.jogo.models.contracts.Movable;
 
-public class BasicShapeModel implements Coordinates2D, Dimensions2D, Disposable, Movimentable {
+public class MovableShape implements Coordinates2D, Dimensions2D, Disposable, Movable {
+
     private Rectangle rectangle;
     private Texture texture;
 
@@ -16,7 +17,7 @@ public class BasicShapeModel implements Coordinates2D, Dimensions2D, Disposable,
     private int horizontalSpeed;
     private Direction direction;
 
-    public BasicShapeModel() {
+    public MovableShape() {
         this.rectangle = null;
         this.texture = null;
 
@@ -25,14 +26,14 @@ public class BasicShapeModel implements Coordinates2D, Dimensions2D, Disposable,
         this.direction = Direction.CENTER;
     }
 
-    public BasicShapeModel(Rectangle rectangle, Texture texture) {
+    public MovableShape(Rectangle rectangle, Texture texture) {
         this();
 
         this.rectangle = rectangle;
         this.texture = texture;
     }
 
-    public BasicShapeModel(Rectangle rectangle, Texture texture, int horizontalSpeed) {
+    public MovableShape(Rectangle rectangle, Texture texture, int horizontalSpeed) {
         this();
 
         this.rectangle = rectangle;
@@ -41,7 +42,7 @@ public class BasicShapeModel implements Coordinates2D, Dimensions2D, Disposable,
         this.horizontalSpeed = horizontalSpeed;
     }
 
-    public BasicShapeModel(Rectangle rectangle, Texture texture, int verticalSpeed, int horizontalSpeed, Direction direction) {
+    public MovableShape(Rectangle rectangle, Texture texture, int verticalSpeed, int horizontalSpeed, Direction direction) {
         this();
 
         this.rectangle = rectangle;
@@ -107,7 +108,7 @@ public class BasicShapeModel implements Coordinates2D, Dimensions2D, Disposable,
         return rectangle;
     }
 
-    public BasicShapeModel setRectangle(Rectangle rectangle) {
+    public MovableShape setRectangle(Rectangle rectangle) {
         this.rectangle = rectangle;
         return this;
     }
@@ -116,7 +117,7 @@ public class BasicShapeModel implements Coordinates2D, Dimensions2D, Disposable,
         return texture;
     }
 
-    public BasicShapeModel setTexture(Texture texture) {
+    public MovableShape setTexture(Texture texture) {
         this.texture = texture;
         return this;
     }
